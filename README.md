@@ -2,6 +2,13 @@
 
 > 基于 Go + Gin 重构的漫展查询 API，数据来源于"无差别同人站（CPP）"
 
+## 🔗 相关项目
+
+| 项目 | 说明 |
+|------|------|
+| [CPP_Search (PHP 原版)](https://github.com/WindowsNoEditor/CPP_Search) | 本项目基于此 PHP 项目重构 |
+| [anime-convention-lizard](https://github.com/lizard0126/anime-convention-lizard) | Koishi 漫展查询插件，可对接本 API |
+
 ## ✨ 特性
 
 - 🔍 支持关键词搜索漫展信息
@@ -34,11 +41,7 @@ go run main.go
 ### 编译
 
 ```bash
-# Windows
-go build -o cpp_search.exe main.go
-
-# Linux/macOS
-go build -o cpp_search main.go
+python build.py --version 版本号
 ```
 
 ## 📖 API 文档
@@ -155,3 +158,9 @@ cpp_search_go/
 ## 📝 License
 
 MIT License
+
+## 🙏 致谢
+
+- [CPP_Search](https://github.com/WindowsNoEditor/CPP_Search) - 原始 PHP 实现
+- [anime-convention-lizard](https://github.com/lizard0126/anime-convention-lizard) - Koishi 漫展查询插件
+- [无差别同人站 (AllCPP)](https://www.allcpp.cn/) - 数据来源

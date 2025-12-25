@@ -22,10 +22,10 @@ func handleIndex(c *gin.Context) {
 		Code: 200,
 		Msg:  "CPP Search API - Go Version",
 		Data: map[string]string{
-			"usage":      "GET /search?msg=关键词",
-			"usage_all":  "GET /search_all 获取所有漫展",
-			"debug":      "GET /search?msg=关键词&debug=raw",
-			"version":    "1.0.0",
+			"usage":     "GET /search?msg=关键词",
+			"usage_all": "GET /search_all 获取所有漫展",
+			"debug":     "GET /search?msg=关键词&debug=raw",
+			"version":   "1.0.0",
 		},
 	})
 }
