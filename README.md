@@ -6,8 +6,9 @@
 
 | 项目 | 说明 |
 |------|------|
-| [CPP_Search (PHP 原版)](https://github.com/WindowsNoEditor/CPP_Search) | 本项目基于此 PHP 项目重构 |
-| [anime-convention-lizard](https://github.com/lizard0126/anime-convention-lizard) | Koishi 漫展查询插件，可对接本 API |
+| [CPP_Search (PHP后端)](https://github.com/WindowsNoEditor/CPP_Search) | 本项目基于此 PHP 项目重构 |
+| [koishi-plugin-anime-convention-lizard](https://github.com/lizard0126/anime-convention-lizard) | Koishi 漫展查询插件，可对接本 API |
+| [koishi-plugin-anime-convention-lizard-vincentzyu-fork](https://github.com/VincentZyuApps/koishi-plugin-anime-convention-lizard-vincentzyu-fork) | 插件fork版本，主要增加了图片的渲染功能捏 |
 
 ## ✨ 特性
 
@@ -160,10 +161,6 @@ cpp_search_go/
     └── service/
         └── search.go       # 业务逻辑
 ```
-
-## 📝 License
-
-MIT License
 
 ## 🙏 致谢
 
