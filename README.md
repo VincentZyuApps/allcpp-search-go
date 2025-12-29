@@ -106,7 +106,8 @@ GET /
 
 ### 配置文件 (推荐)
 
-创建 `config.yml` 文件：
+手动创建一个 `config.yml` 文件：
+> (没有配置文件的话，他就会使用默认配置捏)
 
 ```yaml
 # CPP Search API 配置文件
